@@ -14,6 +14,14 @@
       "args": ["run", "${relativeFile}"],
       "smartStep": true,
       "console": "integratedTerminal"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Vite App",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/packages-private/vite-debug",
+      "sourceMaps": true
     }
   ]
 }
